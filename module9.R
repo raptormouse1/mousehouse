@@ -28,15 +28,22 @@ legend(1,drange[2],c("MVO","LVP"), cex=0.8, col=c("red","blue"), pch = 21:22, lt
 install.packages("lattice")
 #install lattice package
 library(lattice)
+#library it so I don't have to type lattice:: before every code
 ndog<-1:7
 xyplot(LVP+MVO~ndog,dogs, 
        xlab = "Dog Number", ylab = "LVP and MVO", main="LVP and MVO Measurements per Dog",
+       #label the plot and x and y axes
        pch=c(6,4), 
+       #make the points x's and triangles
        auto.key = list(space="top",columns=2,title="Legend", pch=c(6,4), lines=FALSE, POINTS=TRUE, cex.title=1.2))
+       #makes a legend for the plot graph
 xyplot(LVP+MVO~ndog,dogs,
        xlab = "Dog Number",
        ylab = "LVP and MVO", main="LVP and MVO Measurements per Dog", pch=c(6,4), 
        auto.key = TRUE)
+       #a secondary version of the same graph with an autofill-legend
 install.packages("ggplot2")
 library(ggplot2)
+#install and library ggplot2
 qplot(x=MVO,y=LVP,data = dogs,geom = "point")
+#makes an mvo by lvp plot
