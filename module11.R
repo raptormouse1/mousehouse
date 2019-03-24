@@ -7,5 +7,5 @@ tukey_multiple <- function(x) {
   outlier.vec <- vector(length=nrow(x)) 
   for (i in 1:nrow(x)) 
   { outlier.vec[i] <- all(outliers[i,]) } 
-  # below code used to be in the same line, gave error. moved it below = no error.
+  # below code used to be in the same line as above (9), gave error. moved it below = no error.
   return(outlier.vec) }
