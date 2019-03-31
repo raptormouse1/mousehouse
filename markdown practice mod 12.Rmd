@@ -1,0 +1,53 @@
+---
+title: "mice"
+author: "Anna Camacho"
+date: "March 29, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+
+
+*These are going to be completely useless notes.*
+
+**I'm also going to leave the above notes because I'll forget**
+
+# But this may or may not have to do with my final project
+
+~~In reality, it doesn't~~
+
+Calculus Quadrants | Have nothing to do with this
+------------------ | ----------------------------
+Quadrant II        | Quadrant I
+Quadrant III       | Quadrant VI
+
+**But this'll make it stand out (slightly)**
+
+
+>Proper rolls and falls instructions
+
+* Tuck your head
+* Tuck your bits
+* Tuck your focus
+    + Tuck your bits and focus can be the same thing
+
+>Just remember
+
+1. Don't land on your head
+
+2. Don't land on your spine
+    + Don't roll on your spine, either
+
+3. Weapon arm goes away from the body
+
+Heh. $\pi$
