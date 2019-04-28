@@ -1,0 +1,13 @@
+Package: dogweight
+Type: Package
+Title: Tracked multiple dog weights over the course of a year
+Version: 0.0.0.9000
+Author@R: Anna Binder-Camacho
+Maintainer: Anna Binder-Camacho <ambinder@mail.usf.edu>
+Description: This package allows users to discern weight data about 
+    8 dogs and their weight progress over the course of a year. All weight
+    measurements were taken in pounds. 
+Depends: R (>=3.1.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
